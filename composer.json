@@ -6,14 +6,18 @@
     },
     "license": "MIT",
     "minimum-stability": "dev",
-    "type": "package",
-    "package": {
-        "name": "spacedog4/ccreateuser",
-        "version": "0.1.0",
-        "source": {
-            "url": "https://github.com/spacedog4/ccreateuser.git",
-            "type": "git",
-            "reference": "0.1.0"
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "spacedog4/ccreateuser",
+                "version": "dev-master",
+                "source": {
+                    "url": "https://github.com/spacedog4/ccreateuser.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
-    }
+    ]
 }
