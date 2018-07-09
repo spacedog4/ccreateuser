@@ -1,0 +1,15 @@
+{
+  "name": "spacedog4/ccreateuser",
+  "description": "Laravel 5 command rapid create user",
+  "keywords": ["laravel", "command", "user"],
+  "authors": [
+    {
+      "name": "André Luis Monteiro",
+      "email": "andre_luis_monteiro1998@hotmail.com"
+    }
+  ],
+  "require": {
+      "php": "^7.0",
+      "laravel/framework": "5.5.*"
+  }
+}
