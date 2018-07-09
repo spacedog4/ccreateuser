@@ -2,8 +2,7 @@
     "name": "spacedog4/ccreateuser",
     "description": "Laravel 5 command rapid create user",
     "require": {
-        "laravel/framework": "^5.5.0",
-        "spacedog4/ccreateuser": "dev-master"
+        "laravel/framework": "^5.5.0"
     },
     "license": "MIT",
     "minimum-stability": "dev",
