@@ -1,23 +1,28 @@
 {
-    "name": "spacedog4/ccreateuser",
-    "description": "Laravel 5 command rapid create user",
-    "require": {
-        "laravel/framework": "^5.5.0"
-    },
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "spacedog4/ccreateuser",
-                "version": "dev-master",
-                "source": {
-                    "url": "https://github.com/spacedog4/ccreateuser.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
+  "name": "spacedog4/ccreateuser",
+  "description": "Laravel 5 command rapid create user",
+  "require": {
+    "laravel/framework": "^5.5.0"
+  },
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Spacedog4\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "spacedog4/ccreateuser",
+        "version": "dev-master",
+        "source": {
+          "url": "https://github.com/spacedog4/ccreateuser.git",
+          "type": "git",
+          "reference": "master"
         }
-    ]
+      }
+    }
+  ]
 }
