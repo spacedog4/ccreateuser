@@ -8,10 +8,11 @@ You can use composer to install the package
 
 `composer require spacedog4/ccreateuser`
 
-Next add the `Spacedog4\Command\UserCreaterCommand` class to yout console kernel
+Next add the `Spacedog4\Command\UserCreaterCommand` class to your console kernel
 
 ````
    // app/Console/Kernel.php
+   
    protected $commands = [
        ...
        \Spacedog4\Command\UserCreaterCommand::class,
@@ -19,9 +20,9 @@ Next add the `Spacedog4\Command\UserCreaterCommand` class to yout console kernel
 ````
 
 ## Requirements
-This command just work with the default table users from laravel, it must have:
-- User Model `app/User`
-- Laravel users table with the columns `name`, `email` and `password`
+This command just works with the default users table from laravel, it must have:
+- an User Model `app/User`
+- a Laravel users table with the columns `name`, `email` and `password`
 
 ## Usage
 
