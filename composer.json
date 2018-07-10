@@ -24,12 +24,5 @@
         }
       }
     }
-  ],
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Spacedog4\\Commands\\CommandServiceProvider"
-      ]
-    }
-  }
+  ]
 }
