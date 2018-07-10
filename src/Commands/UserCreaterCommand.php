@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Spacedog4\Commands;
 
 use App\User;
 use Illuminate\Console\Command;
